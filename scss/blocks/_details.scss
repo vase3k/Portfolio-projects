@@ -62,19 +62,10 @@
     }
 }
 
-.details-element__checkbox {
-    width: 16px;
-    height: 16px;
-    margin-right: 12px;
-
-    &::after {
-        content: "";
-        display: block;
-        width: 16px;
-        height: 16px;
-        background-image: url('../img/main/details/checkbox.svg');
-        border-radius: 4px;
-    }
+.form-check-label {
+    color: $gray-800;
+    font-size: 14px;
+    line-height: 150%;
 }
 
 .details-element__label {
