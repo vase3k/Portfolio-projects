@@ -1,0 +1,69 @@
+.wrapper {
+    max-width: 1216px + 30px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+html, body {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    color: $MineShaft;
+    background-color: $white;
+}
+
+a {
+    color: inherit;
+}
+
+a:active {
+    transform: translateY(1px);
+    transition: all 0.2s ease-in;
+    opacity: 0.9;
+}
+
+a:hover {
+    opacity: 0.9;
+}
+
+.btn {
+    border-radius: 12px;
+    border: 3px solid #1A9787;
+    color: $MountainMeadow;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:active {
+    transform: translateY(1px);
+    transition: all 0.1s ease-in;
+    opacity: 0.9;
+}
+
+.btn--green-fill {
+    border: 0;
+    background-color: $MountainMeadow; 
+    color: $white;
+    column-gap: 10px;
+    grid-column: 1 / span 2;
+    font-size: 18px;
+    text-transform: uppercase;
+ }
+
+ .btn--red {
+    background: $Cabaret;
+    border: 0;
+    font-size: 18px;
+    color: $white;
+    grid-column: 10 / span 3;
+    column-gap: 29px;
+ }
